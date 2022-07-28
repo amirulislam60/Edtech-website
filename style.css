@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-custom {
+    background-color: #289BDE;
+}
+
+.text-custom {
+    color: #289BDE;
+}
+
+.social-media>a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* media Queries */
+@media only screen and (max-width: 767px) {
+    .carousel-item {
+        height: 260px;
+        width: 335px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
+    .carousel-caption button {
+        --bs-btn-padding-y: .25rem;
+        --bs-btn-padding-x: .5rem;
+        --bs-btn-font-size: .75rem;
+    }
+
+    .card-horizontal {
+        flex-direction: column;
+    }
+
+}
